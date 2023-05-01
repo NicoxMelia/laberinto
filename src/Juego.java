@@ -40,8 +40,9 @@ public class Juego extends JPanel{
         Juego juego = new Juego();
         ventana.add(juego);
         ventana.setSize(920, 540);
-        ventana.setLocation(300, 200);
+        ventana.setLocation(200, 100);
         ventana.setVisible(true);
+        ventana.setResizable(false);
 
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
